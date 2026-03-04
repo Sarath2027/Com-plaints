@@ -7,12 +7,12 @@ export default function App() {
   const [step, setStep] = useState("welcome");
   const [password, setPassword] = useState("");
   const [showPopup, setShowPopup] = useState(false);
-
+  const [showError, setShowError] = useState(false);
   const handleLogin = () => {
     if (password === "Anna143Vadina") {
       setShowPopup(true);
     } else {
-      alert("Wrong Password ❌");
+      setShowError(true);
     }
   };
 
@@ -63,7 +63,33 @@ export default function App() {
               setStep("complaints");
             }}
           />
-        </div>
+          {showError && (
+          <div className="fixed inset-0 flex items-center justify-center 
+                          bg-black/70 backdrop-blur-md z-50">
+
+            <div className="bg-gradient-to-br from-red-500 via-pink-600 to-purple-700
+                            p-8 rounded-3xl shadow-2xl text-center 
+                            max-w-sm w-full mx-4 animate-pulse">
+
+              <h2 className="text-2xl font-bold text-white mb-4">
+                ❌ Wrong Password!
+              </h2>
+
+              <p className="text-gray-200 mb-6">
+                Anna... Password marchipoyava? Guess Chey chey😅
+              </p>
+
+              <button
+                onClick={() => setShowError(false)}
+                className="px-6 py-2 rounded-full bg-white text-red-600 
+                          font-semibold hover:scale-105 transition"
+              >
+                Try Again
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
       )}
 
       {/* COMPLAINTS */}
