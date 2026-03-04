@@ -13,6 +13,18 @@ body {
   }
 }
 
+@keyframes slowJump {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+.slow-jump {
+  animation: slowJump 4s ease-in-out infinite;
+}
 .animate-slide {
   animation: slide 30s linear infinite;
 }

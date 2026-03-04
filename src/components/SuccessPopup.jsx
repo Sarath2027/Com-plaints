@@ -58,7 +58,7 @@ export default function SuccessPopup({ show, onContinue }) {
           ${
             enabled
               ? "bg-gradient-to-r from-pink-500 to-purple-600 hover:scale-105"
-              : "bg-gray-600 cursor-not-allowed opacity-60"
+              : ":bg-gray-800 text-gray-400 cursor-not-allowed opacity-70"
           }`}
       >
         {enabled ? "Continue →" : "Celebrating 🎊"}
