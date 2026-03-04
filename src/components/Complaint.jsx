@@ -88,8 +88,12 @@ export default function Complaints() {
 
             <button
               onClick={() => setShowPopup(false)}
-              className="px-6 py-2 rounded-full bg-black text-white
-                         hover:scale-105 transition"
+              className="px-6 py-2 rounded-xl
+           bg-gradient-to-r from-pink-500 to-purple-600
+           text-white
+           hover:scale-105
+           transition-all duration-300
+           shadow-xl"
             >
               Close 😅
             </button>
