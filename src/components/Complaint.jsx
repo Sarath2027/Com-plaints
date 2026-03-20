@@ -70,7 +70,7 @@ export default function Complaints() {
           <ComplaintCard title="Story/Status/Comment ki Like kuda kottadu " />
           <ComplaintCard title="Nenu Ground ki pilisthe ekkada leni manchu problem vasthadhi" />
           <ComplaintCard title="Health baledhu ani thammudiki cheppadaniki embarassing anta.. listening for first time" />
-          <ComplaintCard title="Rammante.. Vastha ani skip chesi velthadu" />
+          <ComplaintCard title="Rammante.. Vastha ani skip chesi velthadu(Movie ki and ekkadikaina)" />
           <ComplaintCard title="(From,To) : (Thammudu,Sarath Brother), (Sarath Brother,Sarath)" />
           {/* <ComplaintCard title="" /> */}
         </div>
