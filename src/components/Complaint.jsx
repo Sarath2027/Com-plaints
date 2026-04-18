@@ -72,6 +72,9 @@ export default function Complaints() {
           <ComplaintCard title="Health baledhu ani thammudiki cheppadaniki embarassing anta.. listening for first time" />
           <ComplaintCard title="Rammante.. Vastha ani skip chesi velthadu(Movie ki and ekkadikaina)" />
           <ComplaintCard title="(From,To) : (Thammudu,Sarath Brother), (Sarath Brother,Sarath)" />
+          <ComplaintCard title="Fest lo kantiki kuda kanipinchakunda ammailatho, frnds thone untadu... Asalu ematram pattinchukoledhuu.." />
+          <ComplaintCard title="Biggest Discussion : Assalu Love ni Efforts ni consider eh cheyakunda vere vaallatho comparision.. Hurts ALot.." />
+          <ComplaintCard title="Misunderstandings more on Biggest Discussion" />
           {/* <ComplaintCard title="" /> */}
         </div>
       </div>
